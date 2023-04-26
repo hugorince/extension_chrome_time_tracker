@@ -1,0 +1,27 @@
+{
+    "manifest_version": 3,
+    "name": "TimeTracker",
+    "version": "0.8",
+    "permissions": [
+        "notifications",
+        "tabs",
+        "activeTab",
+        "storage"
+      ],
+    "content_scripts": [
+        {
+        "matches": [
+            "<all_urls>"
+        ],
+        "js": ["content.js", "popup.js"],
+        "run_at": "document_start"
+        }
+    ],
+    "action": {
+        "default_icon": "icon.png",
+        "default_popup": "popup.html"
+      },
+      "background": {
+        "service_worker": "background.js"
+}
+}
