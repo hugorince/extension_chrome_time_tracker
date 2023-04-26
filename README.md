@@ -2,7 +2,7 @@
 # TimeTracker
 
 <div align="center">
-  <img src="illustration.png" alt="Illustration tracker avec Instagram">
+  <img src="illustration.gif" alt="Illustration tracker avec Instagram">
 </div>
 
 ## created by Alpha, Johan and Hugo in Ada Tech School.
